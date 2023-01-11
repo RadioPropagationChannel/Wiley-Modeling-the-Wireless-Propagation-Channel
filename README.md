@@ -33,7 +33,9 @@ Other possible readers are practicing engineers who are involved in projects whe
 
 ## Table of contents
 
-### 1. Introduction to Wireless Propagation                                                                                       We present a brief introduction to the basic concepts and mechanisms driving the wireless propagation channel. Then, we present very simple time-series analysis techniques which cover the basics previously introduced. These include the fast variations due to multipath and the combined effects of shadowing and multipath. Finally, we have a look into the signal's complex envelope, and we plot its magnitude and phase. We also present the Rayleigh and Rice cases which correspond to harsh and benign propagation conditions.
+### 1. Introduction to Wireless Propagation
+
+We present a brief introduction to the basic concepts and mechanisms driving the wireless propagation channel. Then, we present very simple time-series analysis techniques which cover the basics previously introduced. These include the fast variations due to multipath and the combined effects of shadowing and multipath. Finally, we have a look into the signal's complex envelope, and we plot its magnitude and phase. We also present the Rayleigh and Rice cases which correspond to harsh and benign propagation conditions.
 
 Code: [Cap. 01: Introduction to Wireless Propagation.](https://github.com/RadioPropagationChannel/Wiley-Modeling-the-Wireless-Propagation-Channel/tree/main/code/Cap01_Introduction%20to%20Wireless%20Propagation)
 
