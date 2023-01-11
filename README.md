@@ -35,13 +35,13 @@ Other possible readers are practicing engineers who are involved in projects whe
 
 1. Introduction to Wireless Propagation                                                                                       We present a brief introduction to the basic concepts and mechanisms driving the wireless propagation channel. Then, we present very simple time-series analysis techniques which cover the basics previously introduced. These include the fast variations due to multipath and the combined effects of shadowing and multipath. Finally, we have a look into the signal's complex envelope, and we plot its magnitude and phase. We also present the Rayleigh and Rice cases which correspond to harsh and benign propagation conditions.
 
-Code: [Cap. 01: Introduction to Wireless Propagation.](code/Cap01_Introduction to Wireless Propagation.zip)
+Code: [Cap. 01: Introduction to Wireless Propagation.](https://github.com/RadioPropagationChannel/Wiley-Modeling-the-Wireless-Propagation-Channel/tree/main/code/Cap01_Introduction%20to%20Wireless%20Propagation)
 
 2.  Shadowing Effects
 
 We present several techniques for quantifying the shadowing effects caused by totally absorbing screens. Even though the formulations presented are somehow more involved than those in other chapters, we have thought it helpful to provide the reader with tools to reproduce the effect of the presence of buildings and other large obstacles. In this way, the reader will be able to replicate the effects of the terrain or the signal variations while driving along a street. We also wanted to point out that, through fairly simple physical models, it is possible to reproduce the inherent cross-correlation properties observed between wanted or interfering signals converging on a given mobile terminal.
 
-Code: [Cap. 02: Shadowing Efects.](code/Cap02_Shadowing Effects)
+Code: [Cap. 02: Shadowing Efects.]([code/Cap02_Shadowing Effects](https://github.com/RadioPropagationChannel/Wiley-Modeling-the-Wireless-Propagation-Channel/tree/main/code/Cap02_Shadowing%20Effects))
 
 3. Coverage and Interference 
 
