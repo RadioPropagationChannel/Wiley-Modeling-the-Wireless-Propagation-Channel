@@ -1,6 +1,6 @@
-# Modeling the Wireless Propagation Channel:
-## A Simulation Approach with MATLAB
-Print ISBN:9780470727850 |Online ISBN:9780470751749 |DOI:10.1002/9780470751749 [https://onlinelibrary.wiley.com/doi/book/10.1002/9780470751749](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470751749).
+# Modeling the Wireless Propagation Channel: A Simulation Approach with MATLAB&reg;
+Print ISBN:9780470727850 | Online ISBN:9780470751749 | DOI:10.1002/9780470751749 
+[https://onlinelibrary.wiley.com/doi/book/10.1002/9780470751749](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470751749).
 
 ![Frontpage](./docs/images/front.jpg)
 
