@@ -2,6 +2,8 @@
 
 ![Frontpage](./docs/images/front.jpg)
 
+1F. Pérez Fontán, P. Mariño Espiñeira, "Modeling the Wireless Propagation Channel: A Simulation Approach with MATLAB®", Wiley, 2008, Print ISBN:9780470727850 |Online ISBN:9780470751749 |DOI:10.1002/9780470751749 [https://onlinelibrary.wiley.com/doi/book/10.1002/9780470751749](https://onlinelibrary.wiley.com/doi/book/10.1002/9780470751749).
+
 ## Introduction
 
 This book deals with several issues related to the wireless propagation channel using a simulation approach. This means thatwe will be generating synthetic, but realistic, series of relevant propagation parameters as a function of time or traversed distance. It is hoped that this will allow the reader to become acquainted with this topic in a simpler, more intuitive way than by using cumbersome mathematical formulations. This will be done in a step-by-step fashion whereby new concepts will be presented as we progress in our familiarization process with the wireless propagation channel.
