@@ -20,7 +20,7 @@ This book covers a number of issues related to the mobile or wireless propagatio
 
 The Matlab software developed is not totally optimized, since the main objective is that the algorithms implemented can be better understood by the reader. Such programs can also be modified by the reader and used in the development of more complex simulators.
 
-If the reader identifies problems in the software, he or she is encouraged to report them to the authors ( fpfontan@tsc.uvigo.es or pmarino@uvigo.es ) so that we can make the required updates or provide solutions. Readers can contact the above email addresses so that we can supply them with the ftp address (or alternative means) for downloading the software. We have used version 7 of Matlab, and the programs may not work on earlier versions. Matlab's signal processing toolbox should also be available for a proper operation of the programs supplied.
+If the reader identifies problems in the software, he or she is encouraged to report them to the authors (fpfontan@tsc.uvigo.es) so that we can make the required updates or provide solutions. Readers can contact the above email addresses so that we can supply them with the ftp address (or alternative means) for downloading the software. We have used version 7 of Matlab, and the programs may not work on earlier versions. Matlab's signal processing toolbox should also be available for a proper operation of the programs supplied.
 
 
 ## Who is targeted?
@@ -45,36 +45,60 @@ We present several techniques for quantifying the shadowing effects caused by to
 
 Code: [Cap. 02: Shadowing Efects.](https://github.com/RadioPropagationChannel/Wiley-Modeling-the-Wireless-Propagation-Channel/tree/main/code/Cap02_Shadowing%20Effects)
 
-3. Coverage and Interference 
+### 3. Coverage and Interference 
 
 Looks into the shadowing phenomenon from a statistical point of view. In Chapter 2 we looked at it from a deterministic point of view. We provide a number of simulation cases where the various aspects of shadowing are presented, thus, we first look at the normal distribution describing the variability of shadowing effects when expressed in dB, and we link the mean of the distribution to the path loss. We define two additional concepts, the location variability and the correlation length. We present alternative ways of reproducing such variations. We then present the effect of cross-correlation, and how to introduce it in simulated series using a statistical approach. Finally, we introduce the multiple interference case. We also use the generated series in hard- and soft-handover examples.
                                                                                                                                                                                                                                                                                                                                                                            
-4. Introduction to Multipath
+### 4. Introduction to Multipath
                     
 After studying the shadowing effects, we start the analysis of the multipath phenomenon. This is introduced by presenting first, very simple geometries, and continuing with more intricate ones. We point out how multipath is a time-selective phenomenon, i.e., it gives rise to fades. In addition, the movement of at least one of the terminals causes Doppler effects. We see how the Doppler shift and the angle of arrival of a given echo are interrelated, and that there is a limit to the maximum rate of change possible, if it is only the terminal that is moving. Throughout, we assume that multipath gives rise to a spatial standing wave, sensed by the terminal antenna as it moves. We also show a possible way of generating time variations when the mobile terminal is stationary. Finally, we briefly introduce the case where both terminals, and even the scatterers, are moving. In this chapter, and throughout this book, we use a very simple approach for the multipath channel based on the so-called multiple point-scatterer model.
                                                                                                                                                                                                     
-5. Multipath: Narrowband Channel
+### 5. Multipath: Narrowband Channel
 
 We continue our discussion on the narrowband multipath channel. In this case, we go one step further and use normalized levels so that we are able to introduce our synthetic time series in actual link-level simulators, where the working point (the average signal-to-noise ratio) is extremely important. We continue our discussion using the multiple point-scatterer model to simulate second-order statistics, and other parameters. We then introduce in the model a direct ray, thus generating a Rice series. Afterward, we present alternative ways for generating Rayleigh and Rice series, one consisting in an array of low frequency sinusoidal generators, and the other consisting on the combination in quadrature of two random Gaussian, noise-like signals, which are also filtered to force the wanted Doppler characteristics. Finally, we look into the issue of space diversity, both at the mobile and the base station sides. The concept of diversity gain/improvement is introduced.
 
-6. Shadowing and Multipath
+### 6. Shadowing and Multipath
 
 We conclude our analysis of the narrowband channel by modeling together the slow and fast variations due to shadowing and multipath, respectively. We present two mixed distributions: Suzuki and Loo. We also simulate a very simple power control technique.
                                                                                                                                                                                                                                               
-7. Wideband Channel
+### 7. Wideband Channel
 
 Completes our picture of the channel. When the time spreading is significant with respect to the duration of the transmitted symbols, selective fading starts to be important. We introduce techniques for characterizing wideband channels, starting with deterministic time-varying channels, and then going on to introduce the stochastic characterization. The main functions and parameters necessary are discussed. We put the wideband channel in the frame of the multiple point-scatterer model, which has been used for presenting illustrative channel simulations. Finally, a statistical model, that of COST 207, is implemented.                                                                                                                                                                             
 
-8. Propagation in Microcells and Picocells
+### 8. Propagation in Microcells and Picocells
 
 We review several issues of relevance for the microcell and picocell scenarios. We also consider the outdoor-to-indoor propagation case. In addition to reviewing some basic theoretical and empirical techniques, we propose and implement simulations which deal with the modeling of these scenarios using simple, image-theory ray-tracing techniques, which reproduce what empirical models forecast. Moreover, we introduce the consideration of diffraction effects in these scenarios. Finally, we also present a widespread statistical model due to Saleh and Valenzuela for describing the wideband indoor channel, where we present the concept of ray clustering.
 
-9. The Land Mobile Satellite Channel
+### 9. The Land Mobile Satellite Channel
 
 We become acquainted with some of the issues specific to this channel, and its more common modeling techniques. We present alternative ways for generating time series, i.e., using a fully statistical approach based on Markov chains, and a mixed statistical-deterministic approach, called here the virtual city approach. Additionally, we become familiar with simple techniques for assessing multiple satellite availability by making use of constellation simulator data, together with urban masks. Finally, we quantify the Doppler shift caused by non-GEO satellites.
 
-10. The Directional Wireless Channel
+### 10. The Directional Wireless Channel
 
 Concludes our study on the wireless channel. Here we study the spatial properties of the multipath channel. We first learn how scatterer contributions tend to be clustered in terms of excess delays, which indicate that they can belong to the same obstacle. We also see that these clustered contributions are spread out in angle of arrival and departure. We also simulate the multiple antenna channel (MIMO, multiple-input multiple-output) using our point-scatterer approach and we show how the capacity can be increased substantially. Finally, we present another approach, a statistical one, for simulating the MIMO channel.
+
+## Contact
+
+Fernando Pérez Fontán 
+
+atlanTTic Research Center,
+
+School of Telecommunication Engineering,
+
+Departament of Signal Theory and Comunications,
+
+University of Vigo
+
+36200 Vigo, Spain
+
+fpfontan@tsc.uvigo.es
+Tel: +34 986 812137
+
+
+## Acknowledgments
+
+We would like to specially thank Professor José María Hernando for the opportunities provided through the years, especially, working with and learning from him. To Bertram Arbesser-Rastburg and Pedro Baptista, the use of the multiple point-scatterer model comes from that time. Also thanks to two great colleagues and friends, Erwin Kubista and Uwe Fiebig. Finally, thanks to our colleagues here at the University of Vigo, especially Iria Sanchez and Belén Sanmartín who did a lot of the programming and reviewing, but also to our other colleagues Adolfo (Fito) Nuñez, Pavel Valtr, Ana Castro, Fernando Machado and Vicente Pastoriza.
+
+
 
 
